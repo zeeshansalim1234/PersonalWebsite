@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/animate.css"/>
 
 		<link rel="stylesheet" href="css/style.css" />
+    
 
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -26,6 +27,10 @@
 
 	</head>
 	<body>
+
+  <div id="progressbar"></div>
+  <div id="scrollPath"></div>
+    
 	<div class="svg-wrap">
       <svg width="64" height="64" viewBox="0 0 64 64">
         <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
@@ -58,12 +63,12 @@
             <a class="navbar-brand" href="#header">Zeeshan Chougle</a>
           </div><!-- /.navbar-header -->
 
-          <div class="collapse navbar-collapse" id="menu">
+          <div class="collapse navbar-collapse" id="menu" >
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#header">Home</a></li>
               <li><a href="#about">About</a></li>              
               <li><a href="#portfolio">Awards</a></li>
-			  <li><a href="#team">Experience</a></li>
+			  <li><a href="#experience">Experience</a></li>
 			  <li><a href="#info">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -152,7 +157,8 @@
                               title : "Schulich Mentor",
                               brief: "Mentorship Program",
                               author : "Mentorship Program"
-                            }
+                            },
+                        
                            
                         ],
             loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 500, speedOut : 500, easingIn : mina.easeinout});
@@ -211,14 +217,14 @@
             </div>
           </div>
         </div> <!-- /.row table-row -->
-        <a href="Zeeshan_CV_3.0.pdf" class="button glow-button" target="_blank"><i class="fa fa-download"> Download CV</i></a>
+        <a href="images/Zeeshan_CV_3.0.pdf" class="button glow-button" target="_blank"><i class="fa fa-download"> Download CV</i></a>
       </div> <!-- /.container -->
     </section>
 
   
 	
 	
-	    <!-- PORTFOLIO -->
+	    <!-- AWARDS -->
 
     <section id="portfolio" class="dark">
       <header class="title">
@@ -243,98 +249,98 @@
             var portfolio = [
                     {
                       category : "branding",
-                      image : "images/scholar.png",
+                      image : "images/scholar.PNG",
                       title : "Presidents Admission Award",
                       link : "#none",
                       text : "$5000"
                     },
                      {
                       category : "branding",
-                      image : "images/scholar.png",
+                      image : "images/scholar.PNG",
                       title : "Jordie & Robert Jordan Award",
                       link : "#none",
                       text : "$6920"
                     },
                     {
                       category : "branding",
-                      image : "images/scholar.png",
+                      image : "images/scholar.PNG",
                       title : "Tution Reinvestment Bursary",
                       link : "#none",
                       text : "$4500"
                     },
                     {
                       category : "branding",
-                      image : "images/scholar.png",
+                      image : "images/scholar.PNG",
                       title : "Student Peer Assistance Bursary",
                       link : "#none",
                       text : "$1500"
                     },
                     {
                       category : "graphic",
-                      image : "images/young.png",
+                      image : "images/young.PNG",
                       title : "",
                       link : "#none",
                       text : "95% in CBSE grade 12 Board exams"
                     },
                     {
                       category : "printing",
-                      image : "images/technovanza.png",
+                      image : "images/technovanza.PNG",
                       title : "",
                       link : "#none",
                       text : "1st Place Technovanza Robotics Competiton"
                     },
                     {
                       category : "printing",
-                      image : "images/asia.png",
+                      image : "images/asia.PNG",
                       title : "",
                       link : "#none",
                       text : "Qualified to national round in math olympiad"
                     },
                     {
                       category : "printing",
-                      image : "images/maha.png",
+                      image : "images/maha.PNG",
                       title : "",
                       link : "#none",
                       text : "1st Place Math Olympiad"
                     },
                     {
                       category : "graphic",
-                      image : "images/top.png",
+                      image : "images/top.PNG",
                       title : "",
                       link : "#none",
                       text : "School Topper Grade 12"
                     },
                     {
                       category : "graphic",
-                      image : "images/super.png",
+                      image : "images/super.PNG",
                       title : "",
                       link : "#none",
                       text : "grade 12 Comp Sci Subject topper (100/100)"
                     },
                     {
                       category : "graphic",
-                      image : "images/grade10.png",
+                      image : "images/grade10.PNG",
                       title : "",
                       link : "#none",
                       text : "Grade 10 Regional Topper"
                     },
                     {
                       category : "graphic",
-                      image : "images/board10.png",
+                      image : "images/board10.PNG",
                       title : "",
                       link : "#none",
                       text : "10 CGPA in grade 10"
                     },    
                     {
                       category : "graphic",
-                      image : "images/grade9.png",
+                      image : "images/grade9.PNG",
                       title : "",
                       link : "#none",
                       text : "Grade 9 School topper"
                     },       
                     {
                       category : "graphic",
-                      image : "images/grade8.png",
+                      image : "images/grade8.PNG",
                       title : "",
                       link : "#none",
                       text : "Grade 8 School topper"
@@ -352,101 +358,137 @@
       </div>
     </section>
 
+    
+    <!--Experience-->
 
-    <!-- TEAM -->
 
-    <section id="team" class="light">
+    <section id = "experience" class="dark">
+    <div class=mainsection >
+      <div class="wrap animated" data-animate="fadeInDown">
+      
+      
       <header class="title">
+        <br><br><br><br>
         <h2>My <span>Experiences</span></h2>
         <p>These are some of my current undertakings at University of Calgary.</p>
       </header>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/SAED.PNG" alt="" class="img-circle">
-              </div>
-
-              <h4>Schulich AeroDesign Club</h4>
-              <h5>SOFTWARE PROJECT LEAD<br>(2020-present)</h5>
-
-              <p>Spearheading the development of an automation and optimization script for XFLR5 in Python</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="https://twitter.com/schulichaero?lang=en" class="fa fa-twitter" target="_blank"></a></li>
-                  <li><a href="https://www.linkedin.com/company/schulich-aerodesign/?originalSubdomain=ca" class="fa fa-linkedin" target="_blank"></a></li>
-                  <li><a href="https://www.facebook.com/SchulichAeroDesign/" class="fa fa-facebook" target="_blank"></a></li>
-                  <li><a href="http://www.schulichaerodesign.ca/" class="fa fa-globe" target="_blank"></a></li>
-                  
-                </ul> 
-              </div>                
-            </div>
+   <div class="container1">
+      <div class="card">
+        <div class="face face1" >
+          <div class="first">
+          <div class="content">
+          
+            <br>
+           <img src="images/Lab.PNG" alt="" class="img-circle" width="150" height = "120">
+            <h3>Software Engineering Decision Support Lab </h3>
+            
+          
           </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/Lab.png" alt="" class="img-circle">
-              </div>
-
-              <h4>Software Engineering Descision Support Lab</h4>
-              <h5>RESEARCH ASSISTANT<br>(2021)</h5>
-
-              <p>Researching on different bio-optimization algorithms to develop incremental service portfolios on the basis of the services' priority determined by NLP of social media data </p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="https://ruhe.cpsc.ucalgary.ca/research/introduction.html" class="fa fa-globe" target="_blank"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/dinobytes.PNG" alt="" class="img-circle">
-              </div>
-
-              <h4>Schulich Dino Bytes Club</h4>
-              <h5>SOFTWARE DEVELOPER<br>(2021)</h5>
-
-              <p>Using machine learning and computer vision to develop innovative methods to improve collision detection and movement for NAO robots</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="https://www.linkedin.com/company/schulich-dinobytes/about/" class="fa fa-linkedin" target="_blank"></a></li>
-                  <li><a href="http://schulichdinobytes.ca/" class="fa fa-globe " target="_blank"></a></li>
-                </ul> 
-              </div>                
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown"> 
-              <div class="img-team">
-                <img src="images/mentor.png" alt="" class="img-circle">
-              </div>
-
-              <h4>Schulich Mentorship Program</h4>
-              <h5>SCHULICH MENTOR<br>(2020-present)</h5>
-
-              <p>Mentoring a first year undergraduate Schulich School of Engineering</p>
-
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <li><a href="https://mentorlink.ucalgary.ca/hub/calgary/program/calgary-mentoring-program2/about" class="fa fa-globe" target="_blank"></a></li>
-                </ul> 
-              </div>                
-            </div>
+         </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>Research Assistant </h3> <p> Operatinalization of tweets towards development of incremental service portfolios for the essential services required during COVID-19</p> 
+            <a href="#" type="button" >Read More </a> 
+            
           </div>
         </div>
-      </div> <!-- /.container -->
-    </section>
-	
+     </div>
+     
+     <div class="card">
+       <div class="face face1">
+         <div class="second">
+         <div class="content">
+           <br>
+           <img src="images/SAED.PNG" alt="" class="img-circle" width="150" height = "120">
+            <h3><br>Schulich AeroDesign Club </h3>
+         </div>
+       </div>
+       </div>
+        <div class="face face2">
+          <div class="content">
+           <h3>Software Project Lead </h3> <p>Spearheading the development of an automation and optimization script for XFLR5 (airodynamics simulation software) using Python.</p>
+            <a href="#" type="button">Read More</a>
+          </div>
+        </div>
+     </div>
+     
+     
+     <div class="card">
+       <div class="face face1">
+         <div class="third">
+         <div class="content">
+           <br>
+           <img src="images/dinobytes.PNG" alt="" class="img-circle" width="150" height = "120">
+            <h3><br>Schulich DinoBytes Club </h3>
+         </div>
+       </div>
+       </div>
+        <div class="face face2">
+          <div class="content">
+           <h3>Software Developer </h3> <p> Enhancing collision detection and movement capabilities of humanoid NAO robots by employing computer vision and machine learning</p>
+            <a href="#" type="button" >Read More</a>
+          </div>
+        </div>
+     </div>
+     
+     <div class="card">
+       <div class="face face1">
+         <div class="fourth">
+         <div class="content">
+           <br>
+           <img src="images/mentor.PNG" alt="" class="img-circle" width="150" height = "120">
+            <h3><br>Schulich Mentorship Program</h3>
+         </div>
+         </div>
+       </div>
+         <div class="face face2">
+           <div class="content">
+             <h3>Schulich Mentor </h3> <p> Mentoring a first year undergraduate, Schulich School of Engineering Student</p>
+             <a href="#" type="button">Read More</a>
+           </div>
+         </div>
+      </div>
+ 
+      <div class="card">
+       <div class="face face1">
+         <div class="fifth">
+         <div class="content">
+           <br>
+           <img src="images/mentor.PNG" alt="" class="img-circle" width="150" height = "120">
+            <h3><br>Schulich Leadership Program </h3>
+         </div>
+         </div>
+       </div>
+         <div class="face face2">
+           <div class="content">
+             <h3>Schulich Leader </h3><p>Successfully completed the foundational tier of Schulich Leadeship Program</p>
+             <a href="#" type="button">Read More</a>
+           </div>
+         </div>
+      </div>
+ 
+      
+    </div>
+     
+     
+     
+     
+   </div></div>
+  </section>
+
+
+    
+
+
+
+
+
+
+
+
+    
 	    <!-- SKILLS -->
 
     <section id="info" class="dark">
@@ -531,7 +573,7 @@
               </div>
               <div class="counter-content">
                 <span class="value" data-from="0" data-to="7"></span>
-                <small>Personal projects</small>
+                <small>Projects</small>
               </div>
             </div>
           </div>
@@ -551,19 +593,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 animated" data-animate="fadeInLeft">
-            <form action="#">
+            <form action="php/contact.php" method="post">
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name">
                 </div>
                 <div class="col-md-6">
-                  <input type="email" class="form-control" placeholder="Your Email">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email">
                 </div>
                 <div class="col-md-12">
-                  <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
+                  <textarea class="form-control" name="message" rows="3" placeholder="Tell Us Everything"></textarea>
                 </div>
                 <div class="col-md-12">
-                  <button class="btn btn-default submit">Send Message</button>
+                  <button class="btn btn-default submit" name="submit" type="submit">Send Message</button>
                 </div>
               </div>
             </form>
@@ -573,8 +615,8 @@
             <address>
                 <span><i class="fa fa-map-marker fa-lg"></i> Schulich School of Engineering, University of Calgary</span>
                 <span><i class="fa fa-phone fa-lg"></i> (+971) 54-4041439</span>
-                <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:zeeshan.chougle@ucalgary.ca" targer="_blank">zeeshan.chougle@ucalgary.ca</a></span>
-                <span><i class="fa fa-instagram" style="font-size:21px"></i> <a href="https://www.instagram.com/zxxshan" target="_blank">Zxxshan</a></span>
+                <span><i class="fa fa-envelope" style="font-size: medium;" ></i><a href="mailto:zeeshan.chougle@ucalgary.ca" targer="_blank">zeeshan.chougle@ucalgary.ca</a></span>
+                
             </address>
           </div>
 		  
@@ -582,12 +624,44 @@
       </div>
     </section>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <section id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Made BY <i class=""></i> <a href="#header">Zeeshan Chougle</a></p>
             
+            <div class="glow-logos">
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/zxxshan" target="_blank">
+                    
+                    <i class="fab fa-instagram"></i>
+                    
+                  </a>
+                </li>
+                <li>
+                  
+                  <a href="https://github.com/zeeshansalim1234" target="_blank">
+                   
+                    <i class="fab fa-github"></i>
+                    
+                  </a>
+                  </li>
+                <li>
+                  <a href="#">
+                    
+                    <i class="fab fa-linkedin"></i>
+                    
+                  </a>
+                  
+                </li>
+                
+              </ul>
+              </div>
+            
+
+            </div>            
           </div>
         </div>
       </div>
@@ -596,6 +670,8 @@
    </div><!-- /.container-fluid -->
     
     <!-- SCRIPT -->
-    <script type="text/javascript" src="js/main.js"></script>
+    
+    <script type="text/javascript" src="js/main.js">
+    </script>
 	</body>
 </html>
