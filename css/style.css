@@ -1,8 +1,4 @@
-/*
-	Daraz by TEMPLATE STOCK
-    templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,500,400);
 
@@ -126,7 +122,7 @@ a {
 }
 
 .pageload-overlay svg path {
-  fill: #f7f7f7;
+  fill: black;
 }
 
 .pageload-overlay::before {
@@ -171,7 +167,7 @@ a {
 
 .navbar-fixed-top .navbar-brand,
 .navbar-fixed-top .navbar-nav > li > a {
-  color: #000;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -185,7 +181,7 @@ a {
 
 .navbar-fixed-top.bottom .navbar-brand,
 .navbar-fixed-top.bottom .navbar-nav > li > a {
-  color: #000;
+  color: black;
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover {
@@ -212,11 +208,11 @@ a {
 
 @media (min-width:768px) {
   .navbar-fixed-top{
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(0,0,0,0.85);
     border: none;
     margin: 0;
     padding: 20px 0 !important;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px black;
     -webkit-transition : .2s;
     -moz-transition : .2s;
     transition : .2s;
@@ -737,6 +733,444 @@ span.quot-name:before {
 }
 
 
+/* new */
+
+.mainsection
+{
+  position: relative;
+  display:flex;
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  background: #444;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+
+.container1{
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  
+}
+
+.container1 .card{
+  position: relative;
+}
+
+.container1 .card .face {
+  width:300px;
+  height: 200px;
+  transition: 0.4s;
+  
+}
+
+/* face1 */
+
+.card .face.face1 .first 
+{
+  transition: 0.4s;
+}
+
+.container1 .card .face.face1 .first{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container1 .card:hover .face.face1 .first{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px rgb(8, 182, 226),
+    inset -20px 0 80px rgb(246, 231, 12),
+    inset 20px 0 300px rgb(8, 182, 226),
+    inset -20px 0 300px rgb(246, 231, 12),
+    0 0 50px orange,
+    -10px 0 80px rgb(8, 182, 226),
+    10px 0 80px rgb(246, 231, 12);
+   
+}
+
+
+.container1 .card .face.face1 .first  .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container1 .card:hover .face.face1 .first .content{
+  opacity: 1;
+ 
+}
+
+.container1 .card .face.face1 .first .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container1 .card .face.face1 .first .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container1 .card .face.face1 .first .content a{
+   transition: .5s;
+}
+
+
+
+
+
+.card .face.face1 .second 
+{
+  transition: 0.4s;
+}
+
+.container1 .card .face.face1 .second{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container1 .card:hover .face.face1 .second{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px yellow,
+    inset 20px 0 80px rgb(226, 70, 8),
+    inset -20px 0 80px rgba(223, 145, 21, 0.877),
+    inset 20px 0 300px rgb(226, 70, 8),
+    inset -20px 0 300px rgba(223, 145, 21, 0.877),
+    0 0 50px orangered,
+    -10px 0 80px rgb(226, 70, 8),
+    10px 0 80px rgba(223, 145, 21, 0.877);
+   
+}
+
+
+.container1 .card .face.face1 .second .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container1 .card:hover .face.face1 .second .content{
+  opacity: 1;
+ 
+}
+
+.container1 .card .face.face1 .second .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container1 .card .face.face1 .second .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container1 .card .face.face1 .second .content a{
+   transition: .5s;
+}
+
+
+
+
+.card .face.face1 .third 
+{
+  transition: 0.4s;
+}
+
+.container1 .card .face.face1 .third{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container1 .card:hover .face.face1 .third{
+  
+  
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+   
+}
+
+
+.container1 .card .face.face1 .third .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container1 .card:hover .face.face1 .third .content{
+  opacity: 1;
+ 
+}
+
+.container1 .card .face.face1 .third .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container1 .card .face.face1 .third .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container1 .card .face.face1 .third .content a{
+   transition: .5s;
+}
+
+
+
+
+
+.card .face.face1 .fourth 
+{
+  transition: 0.4s;
+}
+
+.container1 .card .face.face1 .fourth{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container1 .card:hover .face.face1 .fourth{
+  
+  
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px rgba(5, 251, 251, 0.363),
+    inset 20px 0 80px rgb(17, 114, 241),
+    inset -20px 0 80px lime,
+    inset 20px 0 300px rgb(17, 114, 241),
+    inset -20px 0 300px skyblue,
+    0 0 50px skyblue,
+    -10px 0 80px rgb(17, 114, 241),
+    10px 0 80px skyblue;
+   
+}
+
+
+.container1 .card .face.face1 .fourth .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container1 .card:hover .face.face1 .fourth .content{
+  opacity: 1;
+ 
+}
+
+.container1 .card .face.face1 .fourth .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container1 .card .face.face1 .fourth .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container1 .card .face.face1 .fourth .content a{
+   transition: .5s;
+}
+
+
+
+
+.card .face.face1 .fifth 
+{
+  transition: 0.4s;
+}
+
+.container1 .card .face.face1 .fifth{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container1 .card:hover .face.face1 .fifth{
+  
+  
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px wheat,
+    inset 20px 0 80px goldenrod,
+    inset -20px 0 80px lime,
+    inset 20px 0 300px gold,
+    inset -20px 0 300px limegreen,
+    0 0 50px #fff,
+    -10px 0 80px goldenrod,
+    10px 0 80px limegreen;
+   
+}
+
+
+.container1 .card .face.face1 .fifth .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container1 .card:hover .face.face1 .fifth .content{
+  opacity: 1;
+ 
+}
+
+.container1 .card .face.face1 .fifth .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
+
+.container1 .card .face.face1 .fifth .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.container1 .card .face.face1 .fifth .content a{
+   transition: .5s;
+}
+
+
+
+.container1 .card .face.face2{
+   position: relative;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,.8);
+  transform: translateY(-100px);
+}
+
+.container1 .card:hover .face.face2{
+    transform: translateY(0);
+
+
+}
+
+.container1 .card .face.face2 .content p, a{
+  font-size: 10pt;
+  margin: 0 ;
+  padding: 0;
+  color:#333;
+}
+
+.container1 .card .face.face2 .content a{
+  text-decoration:none;
+  color: black;
+  box-sizing: border-box;
+  outline : 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.container1 .card .face.face2 .content a:hover{
+  background: #333 ;
+  color: whitesmoke; 
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container1 h3{
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* new end */
+
+
+
+
+
+
+
+
+
+
 /*CREATIVE TEAM STYLE*/
 
 #team .wrap {
@@ -1148,6 +1582,7 @@ address span a {
   color: #008ED6;
 }
 
+
 .button {
   text-align: center;
   padding-left: 100px;
@@ -1163,8 +1598,79 @@ address span a {
   display:grid;
 }
 
-.glow-button:hover {
-  
-  color: white;
-  box-shadow: 0 5px 15px lightskyblue;
+.glow-logos ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -12px;
+}
+
+.glow-logos ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.glow-logos ul li a {
+  position: relative; 
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-indent: 1px;
+  line-height: 63px;
+  background: black;
+  border-radius: 50%;
+  font-size: 30px;
+  color: silver;
+  transition: .5s;
+}
+
+
+.glow-logos ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #008ED6;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.glow-logos ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #008ED6;
+}
+
+.glow-logos ul li a:hover {
+  color: #008ED6;
+  box-shadow: 0 0 5px #008ED6;
+  text-shadow: 0 0 5px #008ED6;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background-color:#008ED6 ;
 }
